@@ -1,0 +1,15 @@
+2.创建仓库(文件夹)
+目的:存储项目
+
+本地创建
+[root@master ~]# cd /opt/git/gitrepo
+[root@master ~]# git init
+| [root@master ~]# Is -la
+.git 默认是隐藏的
+注: cd /opt/git && git init gitrepo
+远程拉取
+认识:是一一个面向开源及私有软件项目的托管平台,因为只支持git作为唯一 -的版本库格式进行托管, 故名GitHub
+地址: http://github.com/
+执行命令git clone https://github.com/wyztestdev/youceedu.git
+执行命令git clone https://github.com/wyztestdev/youceedu.git test
+
